@@ -35,6 +35,9 @@ body{
     background-color: lightgray;
     grid-column: 2 / 3;
     grid-row: 2 / 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5vh 22vh 22vh 22vh 22vh;
 }
 
 .svg1{
@@ -52,6 +55,30 @@ h1{
     
 }
 
-.dashtxt{
+.main-div{
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
 
+#project-header{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+#announcements-header{
+    grid-column: 3 / 4;
+}
+
+#ad{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+
+#tegan{
+    grid-column: 3 /4;
+}
+
+#money{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
 }
